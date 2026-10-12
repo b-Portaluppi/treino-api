@@ -1,6 +1,6 @@
 # 🏋️ Treino API
 
-API REST do **Sistema de Treino**, responsável por autenticação de usuários e gerenciamento dos dados de treino. O frontend em React consome esta API.
+API REST do **EnergyGP**, responsável por autenticação de usuários e gerenciamento dos dados de treino. O frontend em React consome esta API.
 
 ## 🚀 Tecnologias
 
