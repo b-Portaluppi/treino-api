@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { DetailsService } from "../../service/auth/detailsService";
 
-export class AuthController {
+export class DetailsController {
     async handle(req: Request, res: Response) {
         const user_id = req.user_id;
 

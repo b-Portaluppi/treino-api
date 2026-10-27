@@ -15,12 +15,13 @@ import { GetSubscriptionController } from "./controller/subscription/getSubscrip
 import { UpdateSubscriptionController } from "./controller/subscription/updateSubscriptionController";
 import { DeleteSubscriptionController } from "./controller/subscription/deleteSubscriptionController";
 import { UpdateAuthController } from "./controller/auth/updateAuthController";
+import { DetailsController } from "./controller/auth/detailsController";
 
 export const route = Router();
 
 route.post("/register", new CreateAuthController().handle);
 route.post("/login", new AuthController().handle);
-route.get("/details", isAuthenticated, new AuthController().handle);
+route.get("/details", isAuthenticated, new DetailsController().handle);
 route.put("/auth", isAuthenticated, new UpdateAuthController().handle)
 
 route.post("/category", isAuthenticated, new CreateCategoryController().handle);
