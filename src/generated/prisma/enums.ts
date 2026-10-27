@@ -10,7 +10,6 @@
 */
 
 export const Plan = {
-  BASIC: 'BASIC',
   PRO: 'PRO'
 } as const
 

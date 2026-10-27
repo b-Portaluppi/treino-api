@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(route);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3333;
 
 console.log(`${process.env.PORT}`);
 

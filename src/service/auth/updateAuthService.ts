@@ -1,4 +1,3 @@
-import { response } from "express";
 import prisma from "../../lib/prisma";
 import { IUpdateAuthService } from "../../utils/interface/auth";
 

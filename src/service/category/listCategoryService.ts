@@ -14,7 +14,6 @@ export class ListCategoryService {
                 select: {
                     id: true,
                     name: true,
-                    description: true,
                     userId: true,
                     createdAt: true,
                     updatedAt: true,
